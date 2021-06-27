@@ -1,39 +1,62 @@
 # Kinderrechner: 2 Zahlen addieren
 
 ### Project description: 
-This project serves to visualize the process for the implementation of a microgame. We use git / GitHub not only for version control, but also to display the individual tasks (see Projects pane) and for feedback (see Issues pane). Please follow the individual cards in the Projects pane step by step to identify comprehension problems. Write down what your problem is and try 2 ways to solve it yourself. 
+This project serves to visualize the process for the implementation of a microgame. We use git / GitHub not only for version control, but also to display the individual tasks (see Projects pane) and for feedback (see Issues pane). 
 
-DE: Aufgabenstellung
+## Problem descripton: 
+A friend wants a web-based game for her daughter (elementary school) to practice adding two numbers.
 
-Anforderung: Eine Freundin möchte für ihre Tochter (Volksschule) ein web-basiertes Spiel zum Addieren-Üben von zwei Zahlen. 
+The task is to use this requirement to independently create a microgame for browsers (WebGL, 960x600) with Unity 2D.
+1. Concept including feedback
+2. Breakdown of the project into individual steps (for programming using GitHub Projects)
+3. Processing of individual steps
+4. Release for testing (note in readme)
 
-Die Aufgabe besteht darin, anhand dieser Anforderung ein Microgame für Browser (WebGL, 960x600) mit Unity 2D selbstständig zu erstellen. 
-1) Konzept wurde schon erstellt, siehe Implementation Concept unten
-2) Aufteilung des Projekts in Einzelschritte (für Programmierung mittels GitHub Projects). Hier im Template ist unter Projects ein Beispiel mit Beispielschritten angegeben. Bitte übernehmen oder selbst eigene Schritte anlegen. (Kann als Ganzes nicht kopiert werden, die Columns und Cards müssen selbstständig angelegt werden. Inhalte der Karten können kopiert werden. https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards
-3) Abarbeitung Einzelschritte (Umsetzung bis 14.6 **NICHT** erforderlich) 
-4) Für Testen freigeben (Notiz im Readme) (Umsetzung bis 14.6 **NICHT** erforderlich)
+### WebGL Build: Ready for Testing!!
+https://3ahmns2021-mtin-3h.github.io/KinderAddierer-ReferenceProject/
+
+### Video:
+https://user-images.githubusercontent.com/28704310/123517778-31e47080-d6a3-11eb-9544-4ec4e0052b7d.mp4
 
 ### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
 Windows 10, Unity 2020.1.5f1, Visual Studio 2019
 
 ### Target platform: 
-WebGL 960x600 reference resolution 
+Desktop Browsers; WebGL reference resolution 960x600 
 
-### Implementation Concept:
-![implementation concept](Screenshots/kinderaddierer-v3-vereinfacht.JPG)
+### Second Testing Prototype: Functional + first Visual, Audio setup (Testing with target group)
+![kinderadd-pt1](https://user-images.githubusercontent.com/28704310/123516328-cc40b600-d69b-11eb-9bec-31532a22457c.JPG)
+
+### First Testing Prototype: Functional working (People like, family, colleques, etc.)
+![kinderadd-functional](https://user-images.githubusercontent.com/28704310/123515937-d95ca580-d699-11eb-8c1a-10fe778aae99.JPG)
+
+### Concept
+![kinderaddierer-v3-vereinfacht-concept](https://user-images.githubusercontent.com/28704310/123055170-e497a300-d405-11eb-863f-65851a63aadf.jpg)
 
 ### Necessary setup/execution steps: 
-Installation process, e.g. step by step instructions that I can run the project after cloning it
+WebGL Export: be sure to disable in the player settings the compression Format. https://github.com/HTL-SBG/FAQIssuesUnityVSGitGitHub/issues/11
+
+- In Unity installed via Package Manager: 2D Sprite (for slicing sprites)
+- HandBrake (Open Source Video transcoder, downsizing video https://handbrake.fr/rotation.php?file=HandBrake-1.3.3-x86_64-Win_GUI.exe)
 
 ### Third party material: 
-(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
-
-### Project state: 
-incl. progress in percent
+- Font: https://fonts.google.com/specimen/Kirang+Haerang?preview.text=Susanne&preview.text_type=custom#standard-styles
+- Sound Button Press: https://freesound.org/s/171697/
+- Sound Calc correct: https://freesound.org/s/320887/
+- Sound Failure: https://freesound.org/s/342756/
+- Sound End scene enter: https://freesound.org/s/521644/
+- Quill shader: https://quill.fb.com/developers/how-to-use-quill-fbx-in-unity
+- Tutorial Workflow Quill to Unity: https://www.youtube.com/watch?v=oDEadARhnVE
 
 ### Limitations: 
+- The game works functionally, the visual design has yet to be done.
+- If the child has to enter SummandA and SummandB and the answer is wrong, the values ​​for the correct answers are not based on what the child entered. This should be fixed in a future release.
 
 ### Lessons Learned: 
+- using ScriptableObject
+- using todo-list/issues for programming workflow
+- using enums
+- using switch/case statements
+- workflow vr quill to unity 
 
 Copyright by smeerws
