@@ -49,7 +49,6 @@ WebGL Export: be sure to disable in the player settings the compression Format. 
 - Tutorial Workflow Quill to Unity: https://www.youtube.com/watch?v=oDEadARhnVE
 
 ### Limitations: 
-- The game works functionally, the visual design has yet to be done.
 - If the child has to enter SummandA and SummandB and the answer is wrong, the values ​​for the correct answers are not based on what the child entered. This should be fixed in a future release.
 
 ### Lessons Learned: 
