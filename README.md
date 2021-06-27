@@ -13,7 +13,7 @@ The task is to use this requirement to independently create a microgame for brow
 4. Release for testing (note in readme)
 
 ### WebGL Build: Ready for Testing!!
-https://3ahmns2021-mtin-3h.github.io/KinderAddierer-ReferenceProject/
+https://3ahmns2021-mtin-3h.github.io/KinderAddierer-ReferenceProject-smeerws/
 
 ### Video:
 https://user-images.githubusercontent.com/28704310/123517778-31e47080-d6a3-11eb-9544-4ec4e0052b7d.mp4
